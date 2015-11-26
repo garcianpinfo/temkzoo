@@ -1,0 +1,27 @@
+/*promoçao*/
+.promocao{background: url(../img/5.jpg); background-size: cover; margin-top: 90px;} 
+.promocao article{width: 55%; background-color: white; opacity: 0.5; padding: 3%; float: right; margin-right: 10%;}
+.promocao article h1{font-family: 'helveticaneue'; font-size: 1.3em; font-weight: 600; color: rgba(0,0,0,2); margin-bottom: 50px; text-align: center;}
+.promocao article p{font-family: 'helveticaneue'; font-size: 1em; color: rgba(0,0,0,2); font-weight: 600; text-align: justify;}
+
+@media only screen and (max-width : 1200px) {
+    .promocao article{width: 65%;}
+}
+
+@media only screen and (max-width : 979px) {
+    .promocao article{width: 75%;}
+}
+
+@media only screen and (max-width : 767px) {
+
+    .promocao article{width: 100%; margin: 0 !important;}
+}
+
+@media only screen and (max-width : 480px) {
+    .promocao{background: black;}
+}
+
+@media only screen and (max-width : 320px) {
+
+}
+

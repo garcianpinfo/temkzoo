@@ -1,0 +1,24 @@
+/*icones*/
+.icon-home{background: #d10c26; padding-left: 19%;}
+.icon-home-item{width: 25%; float: left;}
+.icon-home-fig{width: 22%; margin: 5% 30%;}
+
+@media only screen and (max-width : 1200px) {
+
+}
+
+@media only screen and (max-width : 979px) {
+
+}
+
+@media only screen and (max-width : 767px) {
+    .icon-home{display: none;}
+}
+
+@media only screen and (max-width : 480px) {
+
+}
+
+@media only screen and (max-width : 320px) {
+
+}

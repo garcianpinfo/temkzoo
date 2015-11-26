@@ -1,0 +1,25 @@
+/*slide*/
+.slides{float: left; background: black; width: 100%; margin: 0; position: relative; margin-top: -250px;}
+.slide_item{display: none;}
+.slide_item.first{display: block;}
+.slides img{height: auto; max-height: 900px;}
+
+@media only screen and (max-width : 1200px) {
+    .slides{margin-top: -180px !important;}
+}
+
+@media only screen and (max-width : 979px) {
+
+}
+
+@media only screen and (max-width : 767px) {
+    .slides{margin-top: 0 !important;}
+}
+
+@media only screen and (max-width : 480px) {
+
+}
+
+@media only screen and (max-width : 320px) {
+
+}

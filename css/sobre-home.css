@@ -1,0 +1,34 @@
+/*apresentaçao sobre home*/
+.sobre-home article{width: 80%; margin: 90px 10% 0 10%; float: left; margin-bottom: 60px;}
+.sobre-home article div{width: 45%; float: left; margin-right: 60px;}
+.sobre-home article figure{width: 45%; float: right;}
+.sobre-home article h1{font-family: 'helveticaneue'; font-size: 1.5em; font-weight: bold; color: rgba(0,0,0,0.5); margin-bottom: 50px; text-align: justify;}
+.sobre-home article p{font-family: 'helveticaneue'; font-size: 1.3em; color: black; text-align: justify;}
+
+@media only screen and (max-width : 1200px) {
+    .sobre-home article{width: 100%; margin-left: 2% !important;}
+    .sobre-home article div{width: 45%; float: left; margin-right: 30px !important;}
+    .sobre-home article figure{width: 48%; margin-right: 2%; float: left;}
+}
+
+@media only screen and (max-width : 979px) {
+    .sobre-home article figure{margin-top: 2% !important;}
+    .sobre-home article h1{font-family: 'helveticaneue'; font-size: 1.2em; font-weight: bold; color: rgba(0,0,0,0.5); margin-bottom: 50px; text-align: justify;}
+    .sobre-home article p{font-family: 'helveticaneue'; font-size: 1em; color: black; text-align: justify;}
+}
+
+@media only screen and (max-width : 767px) {
+    .sobre-home article{width: 100%; margin-left: 5% !important;}
+    .sobre-home article div{width: 90%; margin-right: 2% !important;}
+    .sobre-home article figure{width: 90%; margin-right: 5% !important; clear: both;}
+    
+}
+
+@media only screen and (max-width : 480px) {
+    .sobre-home article h1{font-family: 'helveticaneue'; font-size: 1em; font-weight: bold; color: rgba(0,0,0,0.5); margin-bottom: 50px; text-align: justify;}
+    .sobre-home article p{font-family: 'helveticaneue'; font-size: 0.8em; color: black; text-align: justify;}
+}
+
+@media only screen and (max-width : 320px) {
+
+}

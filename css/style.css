@@ -1,113 +1,12 @@
-/*navegaçao*/
-.btnmobile{display: none;}
-.ajust-nav{position: relative; width: 100%; margin: 0 ; padding: 10px 0; z-index: 9999; opacity: 0.8;}
-.main_logo{position: relative; width: 230px; height: 120px; margin-left: 10%;}
-.main_logo a{position: absolute; width: 210px; height: 130px; background: url(../img/logo.png) center center no-repeat; background-size: auto 100%;}
-.main_nav{position: relative; float: right; width: auto; margin-top: 40px; margin-right: 10%;}
-.main_nav li{float: left;}
-.main_nav a{float: left; padding: 12px 16px; color: #eee; font-weight: 300;}
-.main_nav a:hover{color: #fff; text-decoration: underline;}
-.line_red{ background-color: #d10c26; width: 100%; height: 7px;}
-
-/*slide*/
-.slides{float: left; background: black; width: 100%; margin: 0; position: relative; margin-top: -250px;}
-.slide_item{display: none;}
-.slide_item.first{display: block;}
-
-/*icones*/
-.icon-home{background: #d10c26; padding-left: 19%;}
-.icon-home-item{width: 25%; float: left;}
-.icon-home-fig{width: 22%; margin: 5% 30%;}
-
-/*apresentaçao sobre home*/
-.sobre-home article{width: 80%; margin: 90px 10% 0 10%; float: left;}
-.sobre-home article div{width: 45%; float: left; margin-right: 30px;}
-.sobre-home article figure{width: 50%; float: left;}
-
-/*noticias*/
-.noticia-home{width: 30%; float: left; margin-left: 3.5%; margin-top: 70px;}
-.noticia-home:first-child{margin-left: 0 !important}
-
-/*promoçao*/
-.promocao{height: 100%; background: url(../img/5.jpg) center no-repeat; background-size: 100% 100%; margin-top: 90px;} 
-.promocao article{width: 40%; background-color: black; opacity: 0.5; padding: 3%; float: right; margin-right: 10%;}
-
-/*historia*/
-.historia{margin-bottom: 90px;}
-.historia figure{margin-left: 7%;}
-
-/*sobre*/
-.sobre figure{margin-top: -160px;}
-.sobre h1{margin-bottom: 80px; margin-left: 20%; margin-right: 20%;text-align: justify;}
-.sobre div{margin-bottom: 80px; margin-left: 15%; margin-right: 15%; text-align: justify;}
-
-/*galeria*/
-.galeria figure{margin-top: -160px;}
-.galeria ul{margin-left: 20%; margin-top: 80px;}
-.galeria li{float: left; margin-bottom: 50px;}
-
-/*contato*/
-.contato figure{margin-top: -160px;}
-.telefone{float: left;}
-.form{float: right; width: 40%; margin-right: 10%;}
-.mapa{float: right; width: 50%; height: 450px; margin-top: 80px;}
-
-
-.rodape{background-color: black; width: 100%; height: 300px;}
-
-@media(max-width:1600px){
-    /*navegaçao*/
-    .main_logo{height: 100px;}
-    .main_logo a{height: 100px;}
-
-
-}
-@media (max-width: 1024px){
-    /*navegaçao*/
-    .main_logo{margin-left: -10px !important;}
-    .main_nav{margin-right: 0 !important;}
-    .slides{margin-top: -180px !important;}
-
-    /*apresentaçao sobre home*/
-    .sobre-home article{width: 100%; margin-left: 4% !important;}
-    .sobre-home article div{width: 60%; float: left; margin-right: 30px;}
-    .sobre-home article figure{width: 30%; margin-right: 2%; float: left;}
-
-    /*noticias*/
-    .noticias-home div{width: 100%; margin-left: 1.5% !important;}
-    
-    /*historia*/
-    .historia article{width: 100%; margin-left: 2% !important;}
-    .historia figure{margin-left: 3% !important;}
-    
-    
-
-}
-@media (max-width: 790px){
-    /*navegaçao*/
-    .main_nav{display: none; width: 100%; margin: 0 !important;}
-    .btnmobile{display: block; position: absolute; width: 50px; height: 50px;margin-top: 25px; margin-left: 70%;}
-    .main_logo{margin-left: 10% !important}
-    .main_nav li{width: 100%;}
-    .main_nav a{ width: 100%; text-align: center; border: 1px #fff solid;}
-    .slides{margin-top: 0 !important;}
-
-    /*icones*/
-    .icon-home{display: none;}
-
-    /*apresentaçao sobre home*/
-    .sobre-home article div{width: 96%; margin-right: 2% !important;}
-    .sobre-home article figure{width: 96%; margin-right: 2%; clear: both;}
-
-    /*noticias*/
-    .noticia-home{width: 100%; margin-left: 0 !important;}
-    .noticia-home figure{width: 40%; float: left;}
-    
-    /*promoçao*/
-    .promocao article{width: 90%;}
-    
-    /*historia*/
-    .historia div{width: 100%;}
-    .historia p{clear: both; width: 100%;}
-    .historia figure{width: 60%; margin: 0 19% !important;}
-}
+@import "boot.css";
+@import "contato.css";
+@import "galeria.css";
+@import "historia-home.css";
+@import "icones.css";
+@import "lightbox.css";
+@import "navegacao.css";
+@import "noticias-home.css";
+@import "promocao-home.css";
+@import "slide.css";
+@import "sobre-home.css";
+@import "sobre.css";

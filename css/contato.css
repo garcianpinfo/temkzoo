@@ -1,0 +1,38 @@
+/*contato*/
+.contato figure{margin-top: -160px;}
+.titulo{padding-top: 80px; margin-bottom: 60px; clear: both; margin-left: 20%;}
+.telefone{margin-left: 20%; margin-top: 50px;}
+
+.contato hr{margin-top: -40px !important; width: 60%; margin-left: 20%;}
+.rodape{background-color: black; width: 100%; height: 300px;}
+
+
+
+/*form*/
+.form{float: right; margin-right: 20% !important; margin-top: -40px; margin-bottom: 50px;}
+
+label{display: block; width: 100%;}
+input{width: 100%;}
+.mensagem{float: right;}
+
+
+
+@media only screen and (max-width : 1200px) {
+
+}
+
+@media only screen and (max-width : 979px) {
+
+}
+
+@media only screen and (max-width : 767px) {
+
+}
+
+@media only screen and (max-width : 480px) {
+
+}
+
+@media only screen and (max-width : 320px) {
+
+}

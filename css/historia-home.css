@@ -1,0 +1,33 @@
+/*historia*/
+.historia{margin-bottom: 90px; margin-top: 50px;}
+.historia div{width: 60%;}
+.historia figure{width: 30%; margin-left: 5%; margin-top: 6%;}
+.historia article h1{font-family: 'helveticaneue'; font-size: 1.2em; font-weight: bold; color: rgba(0,0,0,0.5); margin-bottom: 50px; text-align: center;}
+.historia article p{font-family: 'helveticaneue'; font-size: 1em; color: black; text-align: justify;}
+.pesq{display: block; width: 45%; float: left;}
+.pdir{display: block; width: 45%; float: right;}
+@media only screen and (max-width : 1200px) {
+    .historia article{width: 100%; margin-left: 2% !important;}
+    .historia figure{margin-left: 3% !important;}
+}
+
+@media only screen and (max-width : 979px) {
+.historia article h1{font-size: 1em;}
+.historia article p{font-size: 0.8em;}
+}
+
+@media only screen and (max-width : 767px) {
+    .historia{width: 100%;}
+    .historia div{width: 90%; margin-bottom: 30px !important;}
+    .pesq{clear: both !important; width: 90%; margin-left: 10% !important;}
+    .pdir{clear: both !important; width: 90%; margin-left: 2% !important;}
+    .historia figure{width: 60%; margin: 0 19% !important;}
+}
+
+@media only screen and (max-width : 480px) {
+
+}
+
+@media only screen and (max-width : 320px) {
+
+}

@@ -18,6 +18,12 @@
     -webkit-box-sizing: border-box;
 }
 
+@font-face{
+    font-family: helveticaneue;
+    src: url('../fonts/HelveticaNeue.ttf')
+}
+
+
 body,html{height: 100%;}
 
 body{background-color: #fbfbfb;}
@@ -84,7 +90,7 @@ a img{border: 0;}
 /*helpers*/
 .textshadown{text-shadow: 1px 1px 0 #ccc;}
 .boxshadow{-webkit-box-shadow: 0px 3px 3px 0px rgba(0,0,0,0.3); -moz-box-shadow: 0px 3px 3px 0px rgba(0,0,0,0.3); box-shadow: 0px 3px 3px 0px rgba(0,0,0,0.3);}
-.boxradius{-webkit-border-radius: 5px; -moz-border-radius: 5px; border-radius: 5px;}
+.boxradius{-webkit-border-radius: 20px; -moz-border-radius: 20px; border-radius: 20px;}
 .last{margin-right: 0;}
 .clear{clear: both;}
 
@@ -128,7 +134,7 @@ a img{border: 0;}
 /*BOTOES*/
 
 .btn{
-    display: inline-block; padding: 10px 20px; background: #333; border: 1px solid #222; cursor: pointer; font-size: 1em; font-weight: 400; color: #fff;
+    display: inline-block; padding: 10px 20px; border: 1px solid red; cursor: pointer; font-size: 1em; font-weight: 400; color: red;
     -webkit-box-shadow: inset 0 1px 0 rgba(255,255,255,0.2) , 0 1px 2px rgba(0,0,0,0.05);
     -moz-box-shadow: inset 0 1px 0 rgba(255,255,255,0.2) , 0 1px 2px rgba(0,0,0,0.05);
     box-shadow: inset 0 1px 0 rgba(255,255,255,0.2) , 0 1px 2px rgba(0,0,0,0.05);
